@@ -1,6 +1,11 @@
 #include "Rect.h"
 #include <iostream>
 using namespace std;
+
+Rect::Rect() {
+
+}
+
 Rect::Rect(const Point& topLeft, const Point& bottomRight) :_topLeft(topLeft), _bottomRight(bottomRight) {
 	
 }
