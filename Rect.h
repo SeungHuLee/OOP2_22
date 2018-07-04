@@ -6,6 +6,8 @@
 class Rect {
 public:
 	Rect();
+	Rect(const Point& topLeft, const Point& bottomRight);
+	Rect(int left, int top, int right, int bottom);
 
 	void SetTopLeft(const Point& topLeft);
 	void SetBottomRight(const Point& bottomRight);
