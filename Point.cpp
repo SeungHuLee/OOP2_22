@@ -8,7 +8,6 @@ Point::Point(int initialX, int initialY) {
 }
 
 Point::Point(const Point& pt) {
-	cout << "복사 생성자 호출됨!!\n";
 	x = pt.x;
 	y = pt.y;
 }
